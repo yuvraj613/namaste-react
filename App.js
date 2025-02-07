@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client"; // ✅ Correct for React 18
 
-// const heading = React.createElement("h1",{id:"heading"},"this is h1 tag");
+const heading = React.createElement("h1",{id:"heading"},"this is h1 tag");
+// basically jsx get transpiled in the above format at the end of th day
  const root = ReactDOM.createRoot(document.getElementById("root"));
 //jsx
 // how to create a heading using jsx
